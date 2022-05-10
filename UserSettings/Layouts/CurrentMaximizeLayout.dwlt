@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 628
+  controlID: 4364
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 629
+  controlID: 4323
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 630
+  controlID: 4324
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 242
     height: 343.33334
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 20fbffff
+      m_ExpandedIDs: 5ed1ffff20fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 136.43044, y: 119.50424, z: 170.86795}
+    m_Target: {x: 311.0815, y: 16.601818, z: 338.1838}
     speed: 2
-    m_Value: {x: 136.43044, y: 119.50424, z: 170.86795}
+    m_Value: {x: 311.0815, y: 16.601818, z: 338.1838}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -551,13 +551,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.106868155, y: -0.8924745, z: 0.2926654, w: 0.32654047}
+    m_Target: {x: 0.1143273, y: -0.8761744, z: 0.25564376, w: 0.39258277}
     speed: 2
-    m_Value: {x: 0.10685677, y: -0.89237934, z: 0.29263422, w: 0.32650566}
+    m_Value: {x: 0.11431431, y: -0.87607485, z: 0.25561473, w: 0.3925382}
   m_Size:
-    m_Target: 10.164999
+    m_Target: 7.416891
     speed: 2
-    m_Value: 10.164999
+    m_Value: 7.416891
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -601,8 +601,8 @@ MonoBehaviour:
     y: 343.33334
     width: 978
     height: 235.99997
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -650,22 +650,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Labs/Testing/Prefabs
+    - Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/NestedPrefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Labs/Testing/Prefabs
+  - Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/NestedPrefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\krist\Documents\GitHub\module4-final-patel-marcinek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 18520000
-    m_LastClickedID: 21016
-    m_ExpandedIDs: 00000000c0510000c2510000c4510000c6510000c8510000de51000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 319}
+    m_SelectedIDs: de570000
+    m_LastClickedID: 22494
+    m_ExpandedIDs: 00000000c0510000c2510000c4510000c6510000c8510000e45100001857000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,9 +718,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 52e0ffff
-    m_LastClickedInstanceID: -8110
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 5ed1ffff
+    m_LastClickedInstanceID: -11938
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -837,8 +837,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -8110
-  m_LastVerticalScrollValue: 15.333252
+  m_LastInspectedObjectInstanceID: -11938
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
