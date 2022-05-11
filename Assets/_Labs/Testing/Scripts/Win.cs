@@ -37,6 +37,6 @@ public class Win : MonoBehaviour
     void SceneChange()
     {
         playerWinText.gameObject.SetActive(false);
-        SceneManager.LoadScene("Terrain");
+        SceneManager.LoadScene("Menu");
     }
 }
