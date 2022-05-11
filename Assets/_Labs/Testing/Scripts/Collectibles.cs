@@ -6,7 +6,7 @@ using TMPro;
 public class Collectibles : MonoBehaviour
 {
     public TextMeshProUGUI countText;
-    public int count;
+    public static int count;
 
     // Start is called before the first frame update
     void Start()
