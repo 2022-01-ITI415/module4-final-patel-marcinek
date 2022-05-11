@@ -27,8 +27,8 @@ public class Timer : MonoBehaviour
     
         if(countdown < 0.1) {
             gameOverText.gameObject.SetActive(true);
-            scream.Play(0);
             timerIsRunning = false;
+            scream.Play();
             Invoke("SceneChange", 5.0f);
         }
     }
