@@ -28,8 +28,15 @@ public class Win : MonoBehaviour
                 if(Collectibles.count == 6){
                     playerWinText.gameObject.SetActive(true);
                     playerWon = true;
+                    Invoke("SceneChange", 5.0f);
                 }
             }
         }
+    }
+
+    void SceneChange()
+    {
+        playerWinText.gameObject.SetActive(false);
+        SceneManager.LoadScene("Terrain");
     }
 }
