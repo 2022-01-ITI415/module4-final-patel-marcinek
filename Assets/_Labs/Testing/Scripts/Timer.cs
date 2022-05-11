@@ -7,7 +7,7 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
 
-    public static float countdown = 300.0f;
+    public static float countdown = 250.0f;
     public bool timerIsRunning = false;
     public TextMeshProUGUI gameOverText;
 
@@ -32,6 +32,7 @@ public class Timer : MonoBehaviour
 
     void SceneChange()
     {
+        countdown = 250.0f;
         gameOverText.gameObject.SetActive(false);
         SceneManager.LoadScene("Terrain");
     }
