@@ -8,12 +8,14 @@ public class Instructions : MonoBehaviour
     public TextMeshProUGUI movementText;
     public TextMeshProUGUI sprintText;
     public TextMeshProUGUI collectText;
+    public TextMeshProUGUI jumpText;
     // Start is called before the first frame update
     void Start()
     {
         movementText.gameObject.SetActive(true);
         sprintText.gameObject.SetActive(true);
         collectText.gameObject.SetActive(true);
+        jumpText.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -27,5 +29,6 @@ public class Instructions : MonoBehaviour
         movementText.gameObject.SetActive(false);
         sprintText.gameObject.SetActive(false);
         collectText.gameObject.SetActive(false);
+        jumpText.gameObject.SetActive(false);
     }
 }
